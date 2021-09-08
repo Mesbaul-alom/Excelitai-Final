@@ -1,0 +1,51 @@
+.accordion-button:not(.collapsed) .fa-caret-right {
+  background-color: white !important;
+
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.accordion-button:not(.collapsed)::after .fa-caret-right {
+  background-image: none !important;
+  transform: none !important;
+}
+
+.accordion-button:not(.collapsed) span,
+.accordion-button:not(.collapsed) {
+  color: #63cf72;
+}
+.accordion-button::after {
+  background-image: none !important;
+  transform: none !important;
+}
+
+.fa-caret-right {
+  margin-right: 4px;
+}
+
+.accordion-button {
+  outline: none !important;
+  font-size: 16px;
+  color: #0dcaf0 !important;
+  font-weight: bold;
+}
+
+.accordion-item {
+  height: 100%;
+}
+
+.accordion-body a {
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  color: RED;
+}
+
+.accordion-body a:hover {
+  color: blue;
+}
+
+.heder-font {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}

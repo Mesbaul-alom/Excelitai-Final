@@ -1,0 +1,168 @@
+@import "reset";
+
+.header-section{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    .main-menu{      
+        color: #fff;
+        width: 100%;
+        .navbar-brand{
+            color: #fff;
+            width: 150px;
+            overflow: hidden;
+            img{
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+               
+                .nav-link{
+                    color: #fff;
+                    font-weight: 500;   
+                    font-family: 'Sarala', sans-serif;             
+                }
+
+                &:hover .dropdown-menu{
+                    display: block;
+                }
+
+                .dropdown-menu{
+                    li{
+                        position: relative;
+                       .submenu{
+                           
+                           position: absolute;
+                           left: 155px;
+                           top: 0;
+                           display: none;
+                           background-color: #fff;
+                           
+
+                           li{
+                            clear: both;
+                            padding: .25rem 1rem;
+                            display: block;
+                            a{
+                             display: block;
+                             width: 100%;
+                            color: #212529;
+                                
+                            }
+                           }
+                       }
+                       &:hover .submenu{
+                           display: block;
+                       }
+                    }
+
+                }
+             
+
+            }
+
+        
+        }
+
+    }
+}
+.main-wrapper{
+    // background-color: #0e1b1f;
+    .hero-section{
+        padding: 150px 0;
+        .slider-item{
+            .slider-inner{
+                display: flex;
+                align-items: center;
+                .slider-content{
+                    width: 50%;
+                    padding-right: 100px;
+                    h1{
+                        font-size: 60px;
+                        color: #fff;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+                .slider-thumb{
+                    overflow: hidden;
+                    width: 50%;
+                    border-radius: 5% 60% 10% 20%;
+                    border: 2px solid#fff;
+                    height: 500px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+    // .hero-section end
+    .about-section{
+        padding: 100px 0;
+        .section-title{
+            h2{
+                font-size: 30px;
+            }
+        }
+        .about-wrapper{
+            .about-item{
+                .about-content{
+                    h4{
+                        font-size: 30px;
+                    }
+                }
+                .about-thumb{
+                    position: relative;
+                    width: 100%;
+                    height: 400px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+            .about-filter{
+                position: absolute;
+                content: "";
+                top: -30px;
+
+                width: 100%;
+                .tablink {
+                    background-color: #555;
+                    border-radius: 5px;
+                    color:#000;
+                    float: left;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    padding: 14px 16px;
+                    font-size: 17px;
+                    width: 25%;
+                    &:hover{
+                        background-color: #777;
+                      }
+                  }
+         
+
+            }
+            .tabcontent {
+                color: #000;
+                display: none;
+                height: 100%;
+              }
+
+        }
+    }
+
+
+}
+  

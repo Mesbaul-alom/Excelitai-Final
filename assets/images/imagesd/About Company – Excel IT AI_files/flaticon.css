@@ -1,0 +1,87 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 18/01/2020 16:21
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-analysis:before { content: "\f100"; }
+.flaticon-google-analytics:before { content: "\f101"; }
+.flaticon-python:before { content: "\f102"; }
+.flaticon-algorithm:before { content: "\f103"; }
+.flaticon-network:before { content: "\f104"; }
+.flaticon-quote:before { content: "\f105"; }
+.flaticon-share:before { content: "\f106"; }
+.flaticon-analytics:before { content: "\f107"; }
+.flaticon-brain:before { content: "\f108"; }
+.flaticon-accept:before { content: "\f109"; }
+.flaticon-abstract:before { content: "\f10a"; }
+.flaticon-abstract-2:before { content: "\f10b"; }
+.flaticon-stars:before { content: "\f10c"; }
+.flaticon-download:before { content: "\f10d"; }
+.flaticon-search:before { content: "\f10e"; }
+.flaticon-music:before { content: "\f10f"; }
+.flaticon-data:before { content: "\f110"; }
+.flaticon-vr:before { content: "\f111"; }
+.flaticon-play-button:before { content: "\f112"; }
+.flaticon-checkmark:before { content: "\f113"; }
+.flaticon-big-data:before { content: "\f114"; }
+.flaticon-ui:before { content: "\f115"; }
+.flaticon-joystick:before { content: "\f116"; }
+.flaticon-product:before { content: "\f117"; }
+.flaticon-travel:before { content: "\f118"; }
+.flaticon-bank:before { content: "\f119"; }
+.flaticon-medicine:before { content: "\f11a"; }
+.flaticon-billboard:before { content: "\f11b"; }
+.flaticon-chat:before { content: "\f11c"; }
+.flaticon-cloud-computing:before { content: "\f11d"; }
+.flaticon-analysis-1:before { content: "\f11e"; }
+.flaticon-null:before { content: "\f11f"; }
+.flaticon-arrow:before { content: "\f120"; }
+.flaticon-brain-1:before { content: "\f121"; }
+.flaticon-freelance:before { content: "\f122"; }
+.flaticon-gmail:before { content: "\f123"; }
+.flaticon-virustotal-icon:before { content: "\f124"; }
+.flaticon-next:before { content: "\f125"; }
+.flaticon-brain-2:before { content: "\f126"; }
+.flaticon-brain-3:before { content: "\f127"; }
+.flaticon-model:before { content: "\f128"; }
+.flaticon-cog:before { content: "\f129"; }
+.flaticon-global:before { content: "\f12a"; }
+.flaticon-zoom:before { content: "\f12b"; }
+.flaticon-pin:before { content: "\f12c"; }
+.flaticon-hyperlink:before { content: "\f12d"; }
+.flaticon-vision:before { content: "\f12e"; }
+.flaticon-conversation:before { content: "\f12f"; }
+.flaticon-photograph:before { content: "\f130"; }
+.flaticon-medal:before { content: "\f131"; }
+.flaticon-share-1:before { content: "\f132"; }
+.flaticon-next-1:before { content: "\f133"; }
+.flaticon-world:before { content: "\f134"; }
+.flaticon-award:before { content: "\f135"; }
+.flaticon-pin-1:before { content: "\f136"; }
+.flaticon-checkmark-1:before { content: "\f137"; }
+.flaticon-left:before { content: "\f138"; }
