@@ -12,15 +12,22 @@
   
 } 
 .fintech{
-  background-image: url(../images/health.jpg);
+  background-image: url(../images/industry/web_development_bg.jpg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
 } 
+.ecommarce{
+  background-image: url(../images/industry/e-commerce.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .internet{
-  background-image: url(../images/health.jpg);
+  background-image: url(../images/industry/bank.jpg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +36,7 @@
 
 } 
 .trasnport{
-  background-image: url(../images/health.jpg);
+  background-image: url(../images/industry/Trasportation\ &\ Logistics.jpg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
